@@ -21,7 +21,7 @@ const EditUser = () => {
 
   const onSubmit = async e => {
     e.preventDefault();
-    await axios.put(`https://localhost:5001/api/users/${id}`, user);
+    await axios.put(`https://abtask.azurewebsites.net/api/users/${id}`, user);
     history.push("/");
   };
 
