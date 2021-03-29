@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container">
         <Link className="navbar-brand" exact to="/">
-          Users
+         AB TEST REAL
         </Link>
         <button
           className="navbar-toggler"
